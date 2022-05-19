@@ -11,6 +11,19 @@
   color: #2c3e50;
 }
 
+.members {
+  max-width: 600px;
+}
+
+div[class*="teammember"] {
+  max-width: 400px;
+}
+
+div[class*="teammemberr"] {
+  align-self: flex-end;
+}
+
+
 #nav {
   padding: 30px;
 
@@ -24,3 +37,5 @@
   }
 }
 </style>
+
+

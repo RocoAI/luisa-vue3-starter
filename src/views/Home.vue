@@ -20,8 +20,8 @@ export default {
     return {
       design: app,
       viewModel: {
-        name:'',
-        result: ''
+        result: '',
+        email: ''
       },
       config: {
       }
@@ -30,8 +30,27 @@ export default {
   components: {
   },
   methods: {
-    sayHello () {
-      this.viewModel.result = "Hello " + this.viewModel.name
+    async signUpWaitingList (event) {
+            if (this.viewModel.email === '') {
+                // we update the status propery, 
+                // if the email is empty
+                this.viewModel.status = 'Please enter your email'
+            } else {
+                // we send the request to the server
+                await fetch('https://yourserver.com', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: this.viewModel.email,
+                    })
+                })
+                // we show a success message, but this time
+                // we use the Luisa event to access the viewModel
+                event.viewModel.status = 'The form was send'
+            }
     }
   }
 }
