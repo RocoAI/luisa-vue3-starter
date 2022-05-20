@@ -13,7 +13,7 @@ import app from './app.json'
  */
 //import '@mdi/font/css/materialdesignicons.css'
 
-
+// https://www.notion.so/does-anyone/Signup-6898a639340d41e9a891447b1fc0ce38
 export default {
   name: 'Home',
   data: function() {
@@ -32,9 +32,7 @@ export default {
   methods: {
     async signUpWaitingList (event) {
             if (this.viewModel.email === '') {
-                // we update the status propery, 
-                // if the email is empty
-                this.viewModel.status = 'Please enter your email'
+                alert('Please enter your email')
             } else {
                 // we send the request to the server
                 await fetch('https://yourserver.com', {
@@ -50,6 +48,7 @@ export default {
                 // we show a success message, but this time
                 // we use the Luisa event to access the viewModel
                 event.viewModel.status = 'The form was send'
+
             }
     }
   }
