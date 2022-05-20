@@ -78,6 +78,18 @@ div[class*="teammemberr"] {
 }
 
 
+.legal div[class*="content"] {
+  max-width: 600px;
+}
+.partners div[class*="content"] {
+  max-width: 600px;
+}
+
+  
+.partners div[class*="desc"] {
+  max-width: 200px;
+}
+
 
 $small: 300px;
 $medium: 900px;
