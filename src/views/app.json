@@ -2,7 +2,7 @@
   "version": 2.1,
   "id": "7XuCZBm2yg5azuv8KsaI41",
   "figmaId": "7XuCZBm2yg5azuv8KsaI41",
-  "name": "Low-Code",
+  "name": "Hola Roco",
   "description": "",
   "screenSize": {
     "w": 1440,
@@ -1573,6 +1573,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -3712,6 +3715,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -5852,6 +5858,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -7088,6 +7097,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -8015,10 +8027,10 @@
       "figmaType": "TEXT",
       "x": -806,
       "y": 1838,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -8049,7 +8061,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -8228,10 +8240,10 @@
       "figmaType": "TEXT",
       "x": -907,
       "y": 1998,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -8262,7 +8274,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -8647,10 +8659,10 @@
       "figmaType": "TEXT",
       "x": -806,
       "y": 2175,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -8681,7 +8693,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -8860,10 +8872,10 @@
       "figmaType": "TEXT",
       "x": -907,
       "y": 2318,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -8894,7 +8906,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -9279,10 +9291,10 @@
       "figmaType": "TEXT",
       "x": -806,
       "y": 2461,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -9313,7 +9325,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -9492,10 +9504,10 @@
       "figmaType": "TEXT",
       "x": -907,
       "y": 2645,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -9526,7 +9538,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -9911,10 +9923,10 @@
       "figmaType": "TEXT",
       "x": -806,
       "y": 2778,
-      "w": 212,
+      "w": 221,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -9945,7 +9957,7 @@
           "left": true,
           "up": false,
           "down": false,
-          "fixedHorizontal": true,
+          "fixedHorizontal": false,
           "fixedVertical": false,
           "hugVertical": true
         }
@@ -10389,7 +10401,7 @@
       "w": 212,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -10626,6 +10638,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -13667,6 +13682,9 @@
           "down": false,
           "fixedHorizontal": false,
           "fixedVertical": false
+        },
+        "breakpoints": {
+          "desktop": true
         }
       },
       "has": {
@@ -16788,7 +16806,7 @@
       "w": 212,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,
@@ -17007,7 +17025,7 @@
       "w": 212,
       "h": 24,
       "layout": {
-        "align": "INHERIT",
+        "align": "STRETCH",
         "grow": 0,
         "paddingLeft": 0,
         "paddingRight": 0,

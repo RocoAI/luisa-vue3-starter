@@ -84,10 +84,14 @@ $medium: 900px;
 
 //some CSS
 @media screen and (max-width: $small) {
-
-  .main div[class*="anja"] {
-      margin-left: -20% !important;
-  }
+  
+    .main div[class*="anja"] {
+        margin-left: -20% !important;
+    }
+  
+    .main div[class*="rocobg"] {
+        display: none !important;
+    }
   //do Smth
 }
 @media screen and (min-width: $medium) {
