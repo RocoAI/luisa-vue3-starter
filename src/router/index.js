@@ -1,5 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+// import Notion from "../views/Notion.vue"
+
 
 const routes = [
   {
@@ -12,11 +14,16 @@ const routes = [
     name: 'Home2',
     component: Home
   },
+  // {
+  //   path: '/notion',
+  //   name: 'Notion',
+  //   component: Notion
+  // },
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
 })
 
 export default router
